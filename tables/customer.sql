@@ -1,0 +1,8 @@
+CREATE TABLE customer ( 
+    balance NUMBER DEFAULT 0 NOT NULL, 
+    name VARCHAR2(50) NOT NULL, 
+    id NUMBER PRIMARY KEY NOT NULL, 
+    address VARCHAR2(100) NOT NULL, 
+    email VARCHAR2(50) NOT NULL, 
+    phone VARCHAR2(20) NOT NULL 
+)
